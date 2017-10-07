@@ -1,0 +1,24 @@
+language: python
+
+install:
+  - pip install tox
+
+matrix:
+  include:
+    - stage: one
+      env: TOX_ENV=one-a
+    - stage: one
+      env: TOX_ENV=one-b
+    - stage: two
+      env: TOX_ENV=two-a
+    - stage: two
+      env: TOX_ENV=two-b
+
+  fast_finish: true
+  allow_failures:
+    - env: TOX_ENV=one-b
+    - env: TOX_ENV=two-a
+    - env: TOX_ENV=two-b
+
+script:
+  - tox -e $TOX_ENV
