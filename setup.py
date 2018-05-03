@@ -6,6 +6,7 @@ setup(
     name='travis_debug',
     version='0.0.1',
     install_requires=[],
+    author='matt@bennett.name',
     zip_safe=True,
     license='Apache License, Version 2.0',
     classifiers=[
