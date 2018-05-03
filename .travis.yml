@@ -34,9 +34,3 @@ matrix:
 
 script:
   - tox -e $TOX_ENV
-
-
-deploy:
-  provider: pypi
-  user: mattbennett
-  secure:
