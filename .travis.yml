@@ -24,7 +24,7 @@ matrix:
           tags: true
           repo: mattbennett/travis-debug
         distributions: sdist
-        server: https://test.pypi.org/index
+        server: https://test.pypi.org/simple
 
   fast_finish: true
   allow_failures:
