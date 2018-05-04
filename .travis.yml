@@ -18,8 +18,7 @@ matrix:
       deploy:
         provider: pypi
         user: mattbennett
-        password:
-          secure: "LbqlqNjf+jVuYjIhENOUMv+Os8SMT42XOpsGOKz3fwNgKYiOz12CtFVFC4jQwAmG1EQ9+qgrsBxPQQs2IK6Fac7H7JSvoKpmfvgfoQh3KC7WwuSj1lPARVu8DZ96SIJ/1qRdM1rqs6uoCXIo4nOSk7YurYrlEvaAmS1Cejnk/ETQJt1regMZU22fVZXDuy37m/hNFR0+C+uWctri5x4j1dm4+zbLCgtswnYTp9gcfSoWTz7g3kifn/8C+xZz0FZY3DL13k/J8wbyBloyr6liaAaf9HrXIzXC9Tuq9R0AqpriObTdcPkN+HSk969h/tm/ZTMG5/5i2lT0EdfbvTEUQjyWZvt5XMkPzojFwQ5UbNFPp5Ub4Y+XoxgcS27yFRC1qOjLVHOad7KDGCYCagQsDh7LtF17xFt62HefRC9EvcETGtEhHpXJMxJaazfnHIhSRQR1fOWPR1qLB39xJq64ECystaMimWQrctx3cHlbS/Tpj/Z+ZTC89w5YPOVApCQcG1vEjx0vAn1RH/KBwLD3oevwn8nn18W5GEju1nTUiD3eWxHtOU3kjloRLbu5k2dpXs0JyC5pScMUIaEJNF+ghJvuKJdltR2WZ66AgyAXJH8BvkxaNWumkg8l0hlNTXdMRglnYNarFR8A1pDbLs1HtKwU1rB75pk+MkUqtJRdRjk="
+        password: secret
         on:
           tags: true
           repo: mattbennett/travis-debug
