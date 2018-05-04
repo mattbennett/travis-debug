@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='travis_debug',
-    version='0.0.1',
+    version='0.0.2-rc',
     install_requires=[],
     author='matt@bennett.name',
     zip_safe=True,
